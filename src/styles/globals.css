@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /* color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+  /* font-family: "Space Grotesk", sans-serif; */
+  background-color: #000000;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-size: 18px; */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .bg-gradient {
+    background-image: linear-gradient(210deg, #1F4247 0%, #0D1D23 50%, #09141A 100%);
+  }
+}
+
+.rti--container {
+  padding: 10px 18px !important;
+  background: #233B3F !important;
+  border-color: #233B3F !important;
+}
+
+.rti--input::placeholder {
+  color: #788386;
+}
+.rti--input {
+  background-color: transparent;
+  color:  white !important;
+  font-size: 13px !important;
+}
+.rti--tag {
+  background-color: #1C272C !important;
+}
+.rti--tag span {
+  background-color: #1C272C;
+  color: white;
+  font-size: 12px !important;
+  font-weight: 600;
+  padding: 6px;
+  border-radius: 4px;
+}
+.rti--tag button:hover,
+.rti--tag button {
+  color: white !important;
+}
