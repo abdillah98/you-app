@@ -23,5 +23,3 @@ Follow these instructions to set up and run the project on your local machine.
 - Your project will run at the address `http://localhost:3013`
 
 Thank you!
-
-Translated with DeepL.com (free version)
