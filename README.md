@@ -1,31 +1,27 @@
-# Tonjoo Blog Next.js Projects
+# YouApp Coding Test - Frontend (Next.js Projects)
 
-## Memulai
+## Getting Started
 
-Ikuti instruksi berikut untuk mengatur dan menjalankan proyek di mesin lokal Anda.
+Follow these instructions to set up and run the project on your local machine.
 
-### Prasyarat
+### Prerequisites
 
 - Node.js
 - npm
 
-### Download source
+### Installation
+- Open a terminal from the project root
+- Install all dependencies by running the `npm install` command
+- Don't forget to create a `.env.local` file to set environment variables.
+- Use the `.env.example` file as an example.
+- Run the `npm run dev` command to start the application in dev mode.
+- Your project will run at the address `http://localhost:3013`
 
-Silahkan donwload source dari url Google Drive berikut:
-...
+### Build
+- Run the `npm run build` command to build the application.
+- Then run the `npm run start` command to start the application
+- Your project will run at the address `http://localhost:3013`
 
-- Buka filder test 1
-- Download folder `nextjs-graphql-blog`
+Thank you!
 
-Extract kemudian lanjutkan instalasi.
-
-### Instalasi
-- Buka terminal dari root proyek
-- Install semua dependesi dengan menjalankan perintah `npm install`
-- Jangan lupa menyesuaikan variabel lingkungan pada file `.env.local`.  Gunakan file `.env.example` sebagai contoh.
-- Jalankan perintah `npm run dev` untuk memulai aplikasi
-- Proyek anda akan berjalan di alamat `http://localhost:3013`
-
-Endpoint live blog 👉 `https://tonjoo-blog.vercel.app`
-
-Terima kasih!
+Translated with DeepL.com (free version)
